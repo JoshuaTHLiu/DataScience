@@ -2,9 +2,13 @@
 
 # Nuanced Metrics for Measuring Unintended Bias with Real Data for Text Classification
 
+Goal
+
+Create an evaluation metric that measures the amount of biases.
+
 Metric
 
-Evaluate metric for each subgroup (identity) and compare to the background data (the rest of the data).
+Evaluate metric for each subgroup (identity) and compare to the background data (the rest of the data).  The metric is also designed to be  threshold-agnostic and robust to class implance.
 
 TERMS
 
