@@ -24,6 +24,15 @@ Subgroup Metrics
  - value of 0 means the mean for TPR<sub>g</sub> and TPR are the same.
 4. Negative AEG - same as positive AEG but with true false rate (TFR)
 
+## BIASES
+
+1. Small Right Score Shift - detected by AEGs
+2. Large Score Shift - detected by BPSN and AEGs
+3. Score Shift and Size Skew - detected by BPSN, BNSP, and AEGs
+4. Left Score Shift - detected by BNSP and AEGs
+5. Low Subgroup Separability - detected by AUC and AEGs
+6. Wide Subgroup Score Range without Overlap - not detectable with given metrics
+7. Wide Subgroup Score Range with Overlap - detected by AUCs
 
 ## TERMS
 
@@ -35,5 +44,7 @@ Equality of Opporunity - this exists when
  - P(y'<sub>g</sub> > y'| y<sub>g</sub> in D<sup>+</sup><sub>g</sub>, y in D<sup>+</sup>) = 0.5
 
 ## REFERENCES
+
+https://arxiv.org/pdf/1903.04561.pdf
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists
