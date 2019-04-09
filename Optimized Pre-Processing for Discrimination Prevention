@@ -1,1 +1,6 @@
 # Optimized Pre-Processing for Discrimination Prevention
+
+## TERMS
+ - protected attributes - features that identify a group
+ - disparate treatment - direct discrimination from using protected attributes
+ - disparate impact - indirect discrimination from using attributes highly correlated with protected attributes
